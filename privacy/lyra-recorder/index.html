@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lyra Recorder Privacy Policy — Ancient BitForge</title>
+  <meta name="description" content="Privacy Policy for Lyra Recorder by Ancient BitForge">
+  <link rel="canonical" href="https://ancientbitforge.com/privacy/lyra-recorder/">
+  <link rel="stylesheet" href="/styles.css">
+  <style>
+    .policy-main { width:min(920px,calc(100% - 36px)); margin:0 auto; padding:150px 0 90px; }
+    .policy-back { display:inline-block; margin-bottom:36px; color:#b9974e; text-decoration:none; letter-spacing:.13em; text-transform:uppercase; font-size:.75rem; }
+    .policy-header { padding-bottom:40px; border-bottom:1px solid rgba(185,151,78,.35); }
+    .policy-kicker { color:#b9974e; letter-spacing:.24em; text-transform:uppercase; font-size:.72rem; }
+    .policy-header h1 { margin:.5rem 0 1rem; font-size:clamp(2rem,6vw,4.2rem); line-height:1.05; font-weight:400; }
+    .updated { color:#9a9489; }
+    .policy-content { padding-top:20px; }
+    .policy-content section { padding:28px 0; border-bottom:1px solid rgba(185,151,78,.18); }
+    .policy-content h2 { margin:0 0 16px; color:#d1b36b; font-size:1.05rem; letter-spacing:.08em; }
+    .policy-content p,.policy-content li { color:#c8c3b9; line-height:1.75; }
+    .policy-content ul { padding-left:1.35rem; }
+    .policy-content a { color:#d1b36b; overflow-wrap:anywhere; }
+    @media (max-width:700px) { .policy-main { padding-top:110px; } }
+  </style>
+</head>
+<body>
+<header class="site-header">
+  <a href="/" class="site-brand">Ancient BitForge</a>
+</header>
+<main class="policy-main">
+  <a class="policy-back" href="/apps/lyra-recorder/">← Back to Lyra Recorder</a>
+  <header class="policy-header">
+    <p class="policy-kicker">Privacy</p>
+    <h1>Lyra Recorder Privacy Policy</h1>
+    <p class="updated">Last updated: 18 July 2026 · Application version: 1.0.0+2</p>
+  </header>
+  <div class="policy-content">
+    <section><h2>1. OVERVIEW</h2><p>This Privacy Policy explains how Lyra Recorder (the “Application”), developed by Ancient BitForge, accesses, processes, stores and deletes user data. Lyra Recorder is a mobile audio recording tool for voice, field and reference recording.</p><p>The Application follows a local-first model. Microphone audio, recordings, recording markers, calibration measurements and settings are processed and stored on the user’s device. The Application does not create user accounts, require login, use advertising or analytics SDKs, or transmit recordings to Ancient BitForge servers.</p></section>
+    <section><h2>2. PERMISSIONS AND DATA ACCESS</h2><p>Lyra Recorder requests only the Android permissions needed for recording and local file management. A permission is used only when the user activates the related function.</p><ul><li><strong>Microphone (RECORD_AUDIO).</strong> Required to capture audio through the device microphone or a supported external audio input. The audio signal is processed locally for recording, level metering, waveform and spectrum display, gain control, high-pass filtering, limiter operation and session calibration.</li><li><strong>Legacy file permissions.</strong> On Android 9 and earlier, WRITE_EXTERNAL_STORAGE may be used to create or manage audio files. On Android 12L and earlier, READ_EXTERNAL_STORAGE may be used to access audio files selected by the user. On newer Android versions, the Application uses app-specific storage and the Android system file picker. It does not scan unrelated personal files.</li><li><strong>Haptic feedback.</strong> The interface may provide tactile feedback when controls are used. This does not require Lyra Recorder to collect or transmit personal data.</li></ul></section>
+    <section><h2>3. DATA COLLECTION AND THIRD-PARTY SERVICES</h2><p><strong>No developer-side collection.</strong> Ancient BitForge does not receive or store recordings, microphone content, waveform data, spectrum data, markers, calibration measurements or usage analytics from the Application.</p><p><strong>No advertising or analytics.</strong> The Application contains no advertising SDK and no third-party analytics SDK.</p><p><strong>No payments in this version.</strong> Application version 1.0.0+2 does not implement an in-app purchase flow and does not process payment information. If a future release introduces Google Play Billing, this Policy and the Google Play Data safety declaration will be updated before that feature is made available.</p><p><strong>Google Play services.</strong> Google Play may process limited device, account, download, update, integrity and transaction-related information under Google’s own privacy terms when the Application is distributed or reviewed. Ancient BitForge does not receive payment-card details.</p><p><strong>External browser and Android file picker.</strong> When the user opens this Privacy Policy, the Application hands the web address to the device’s browser. When the user imports an audio file, the Android system picker is used. Those external components are governed by their respective providers’ privacy practices.</p></section>
+    <section><h2>4. LOCAL PROCESSING AND SETTINGS</h2><p>Microphone capture, gain control, high-pass filtering, limiter processing, real-time meters, waveform generation, spectrum visualization, playback tracking, recording markers and calibration calculations are performed locally on the device.</p><p>The Application may retain local preferences such as the selected recording format, calibration state, thresholds, recording options and interface state. These preferences are used only to operate the Application.</p></section>
+    <section><h2>5. RECORDINGS, MARKERS AND IMPORTED FILES</h2><p>Recordings created by Lyra Recorder are stored in the Application’s app-specific local storage. They are not uploaded automatically. Recording markers and their associated text are stored locally alongside the relevant recording session where applicable.</p><p>The user may select compatible audio files through the Android system file picker for local playback or management. Lyra Recorder accesses only the file deliberately selected by the user and does not search unrelated folders or files. The current version does not automatically share recordings with Ancient BitForge or other parties.</p><p>Deleting a recording created by Lyra Recorder removes the corresponding local file when Android grants the required access. Deleting an imported item from within the Application may also delete the selected local file if Android permits that operation; users should keep a separate copy when they wish to preserve the original.</p></section>
+    <section><h2>6. TRIAL INFORMATION</h2><p>The 21-day evaluation period is enforced with local trial-state information, including timestamps and status values stored on the device. This information is used only to determine the evaluation period and reduce manipulation of the device clock.</p><p>Where supported, the Application protects trial-state information with Android EncryptedSharedPreferences. If encrypted storage is unavailable, Android application preferences may be used as a fallback. Trial information is not used for advertising, analytics, location tracking, cookies or network profiling.</p></section>
+    <section><h2>7. RETENTION AND DELETION</h2><p><strong>Recordings and markers.</strong> These remain on the device until the user deletes them, clears the Application’s data or uninstalls the Application. Files stored outside the app-specific area, including imported originals, may remain after uninstallation and must be managed by the user through Lyra Recorder, Android or another file-management tool.</p><p><strong>Preferences, calibration and trial state.</strong> These remain locally until the user clears the Application’s data or uninstalls the Application, subject to any backup or restore behavior enabled by Android or the user’s device account.</p><p><strong>Ancient BitForge servers.</strong> Ancient BitForge retains none of the above data on its servers because the Application does not transmit it to Ancient BitForge.</p><p>Lyra Recorder does not create user accounts; therefore, there is no server-side account or associated cloud data to request for deletion.</p></section>
+    <section><h2>8. DATA SHARING</h2><p>Ancient BitForge does not sell, rent or trade personal or sensitive user data. The Application does not disclose recordings, microphone content, markers, calibration data or settings to Ancient BitForge.</p><p>Data leaves Lyra Recorder only when the user deliberately selects an Android system component or another application to access a file or web address. The receiving service is governed by its own privacy policy.</p></section>
+    <section><h2>9. SECURITY</h2><p>Lyra Recorder relies on Android’s app sandbox and app-specific storage controls to protect local Application data. Trial-state information is encrypted where Android support is available. No method of local storage is completely immune to device compromise, unauthorized physical access, malware, operating-system vulnerabilities or user-configured backup services. Users should protect their device with current security updates and an appropriate screen lock.</p></section>
+    <section><h2>10. CHILDREN’S PRIVACY</h2><p>Lyra Recorder is not directed specifically to children under 13. Ancient BitForge does not knowingly collect personal information from children through the Application. Because recordings remain local, a parent or guardian can delete them from the device using the methods described above.</p></section>
+    <section><h2>11. CHANGES TO THIS POLICY</h2><p>This Privacy Policy may be updated when the Application’s features, permissions, data practices, billing implementation, legal requirements or support details change. The current version will be published at the public policy URL shown below. Material changes will be reflected by a revised “Last updated” date.</p></section>
+    <section><h2>12. CONTACT</h2><p>For privacy questions, technical support or requests concerning Lyra Recorder, contact Ancient BitForge:</p><p>Email: <a href="mailto:ancientbitforge@gmail.com">ancientbitforge@gmail.com</a></p><p>Website: <a href="https://ancientbitforge.com">https://ancientbitforge.com</a></p><p>Privacy policy URL: <a href="https://ancientbitforge.com/privacy/lyra-recorder/">https://ancientbitforge.com/privacy/lyra-recorder/</a></p></section>
+  </div>
+</main>
+<footer class="footer"><p class="footer-title">Ancient BitForge</p><p>Software Crafted with Precision</p><p class="footer-copyright">© 2026 Ancient BitForge</p></footer>
+</body>
+</html>
